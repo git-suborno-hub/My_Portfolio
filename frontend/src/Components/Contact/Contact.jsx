@@ -61,7 +61,7 @@ const Contact = () => {
       <div className="contact-section">
         <div className="contact-left">
           <h1>Let's Talk</h1>
-          <p>I’m always eager to collaborate, learn, and grow. Excited to explore opportunities in software development and AI!</p>
+          <p>I’m always eager to collaborate, learn, and grow. Excited to explore opportunities in Software Development and AI!</p>
           <div className="contact-details">
             <div className="contact-detail">
               <i className="fa-solid fa-envelope"></i>
