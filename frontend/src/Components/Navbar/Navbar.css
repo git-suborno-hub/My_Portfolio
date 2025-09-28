@@ -1,0 +1,126 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;       
+  top: 0;                
+  left: 0;
+  width: 90%; 
+  height: 20px;          
+  z-index: 1;         
+  background: #f6f2ff;   
+  padding: 20px 70px;    
+}
+
+
+.logo{
+    width: 7rem; 
+    cursor: pointer;
+    margin-right: 3.5rem; 
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    border-radius: 50px;
+    padding: 0.75rem 3rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu li a {
+  padding: 8px 14px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.3s;
+}
+
+.nav-menu li a:hover {
+  background: #f0f0f0;
+}
+
+.nav-menu li a.active-link {
+  background: #ff4d6d; 
+  color: white;
+}
+
+.nav-connect{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.625rem 2.5rem; 
+    border: 1px solid #6b7280; 
+    background: #ff4d6d;
+    border-radius: 9999px;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nav-connect a{
+  text-decoration: none;
+  color: white;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+
+.nav-mob-close {
+  display: none;
+}
+
+.nav-mob-open{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar{
+    margin: 0px 0px;
+    z-index: 1; 
+  }
+
+  .nav-connect{
+    display: none;
+  }
+
+  .nav-mob-open{
+    display: block;
+    position: fixed;
+    right: 30px;
+  }
+
+  .nav-mob-close{
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 150px;
+    width: 30px;
+    color: white;
+  }
+
+  .nav-menu{
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    gap: 30px;
+    background-color: #ff4d6d;
+    width: 150px;
+    height: 100%;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -450px;
+    border-radius: 0px;
+  }
+
+  .nav-menu li{
+    font-size: 20px;
+    padding-left: 10px;
+    flex-direction: row;
+    gap: 20px;
+  }
+}

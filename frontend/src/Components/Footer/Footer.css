@@ -1,0 +1,27 @@
+.footer {
+  margin: 50px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-top {
+  text-align: center;
+}
+
+.footer-top img {
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer{
+    margin-top: 100px;
+  }
+}
