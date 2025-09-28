@@ -26,6 +26,7 @@ export const projects = [
       "Prescripto is a modern and user-friendly doctor’s appointment booking website frontend built using React.js and Tailwind CSS.",
     tags: ["React", "TailwindCSS"],
     image: "/projects/prescripto.jpeg",
+    demoUrl: "https://prescripto-frontend-khaki.vercel.app/",
     githubUrl: "https://github.com/git-suborno-hub/Prescripto-frontend-",
   },
 ];

@@ -78,7 +78,7 @@ const Contact = () => {
             <a href="https://github.com/git-suborno-hub">
               <i className="fa-brands fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/maksuda-akter-622a50341">
+            <a href="https://www.linkedin.com/in/suborno-maksuda-622a50341/">
               <i className="fa-brands fa-linkedin"></i>
             </a>
           </div>
