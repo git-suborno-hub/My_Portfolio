@@ -3,7 +3,7 @@
 Welcome to my **Personal Portfolio Website** built with **ReactJS** and **Pure CSS**   
 This project showcases my journey, skills, and projects as an aspiring software engineer.  
 
-You can visit the live portfolio here: [Portfolio Link]([https://your-portfolio-link.vercel.app](https://my-portfolio-amber-six-vmin02eief.vercel.app/))
+**Live Demo**: [Click Here](https://my-portfolio-amber-six-vmin02eief.vercel.app/)
 
 ---
 
